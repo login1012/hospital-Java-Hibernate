@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="72" failures="0" name="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" time="28.979" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="12.0.1+12"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk-12.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\Liza\Documents\NetBeansProjects\hospital2"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Liza\Documents\NetBeansProjects\hospital2"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="12.0.1+12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Liza\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk-12.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Java\jdk-12.0.1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;E:\Program Files\Git\cmd;C:\Users\Liza\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Liza\AppData\Local\Programs\Python\Python38-32\;C:\Users\Liza\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="56.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Liza"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="user.name" value="Liza"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans-12.0\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 clean install"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk-12.0.1"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="12.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testUpdateHospitalization" time="2.249"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testDeleteEmployee" time="0.015"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testGetDiagnosis" time="0.109"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testUpdateDiagnosis" time="0.985"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testUpdateHospitalizationFail" time="0.657"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testGetMedicalInsuranceFail" time="0.093"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testDeleteMedicalInsurance" time="0.827"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testUpdateMedicalInsuranceFail" time="0.015"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testUpdateMedicalInsurance" time="0.285"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testCreateSurvey" time="0.543"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testDeleteAppointmentFail" time="0.047"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testCreateHospitalFail" time="0"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testGetEmployee" time="0.015"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testDeletePatientFail" time="0"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testCreateAppointmentFail" time="0.141"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testCreateEmployeeFail" time="0.031"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testGetPatientFail" time="0.047"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testGetHospitalization" time="0.645"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testGetMedicalInsurance" time="1.091"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testGetDiagnosisFail" time="0.281"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testCreatePatientFail" time="0.016"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testCreatePatient" time="0.016"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testCreatePayment" time="0.951"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testDeleteDiagnosisFail" time="0.031"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testDeleteMedicalInsuranceFail" time="0.734"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testUpdateHospital" time="0.016"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testDeleteHospitalFail" time="0"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testUpdatePaymentFail" time="0.031"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testCreateHospital" time="0"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testUpdateDiagnosisFail" time="0.015"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testUpdateAppointment" time="0.079"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testGetHospitalFail" time="0.015"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testUpdateAppointmentFail" time="0.538"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testGetPatient" time="0.062"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testGetPayment" time="0.649"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testCreateDiagnosis" time="0.845"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testDeleteEmployeeFail" time="0.016"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testUpdatePatient" time="0"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testUpdatePayment" time="0.703"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testUpdateHospitalFail" time="0"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testGetEmployeeFail" time="0.063"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testUpdateEmployeeFail" time="0.015"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testUpdateSurvey" time="0.172"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testCreateSurveyFail" time="0.533"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testDeleteSurvey" time="0.11"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testGetHospitalizationFail" time="0.046"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testGetAppointmentFail" time="0.592"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testCreateMedicalInsurance" time="1.202"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testDeletePaymentFail" time="0.25"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testDeleteAppointment" time="1.12"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testDeleteHospital" time="0.016"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testUpdateEmployee" time="0"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testGetPaymentFail" time="0.818"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testCreateEmployee" time="0"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testDeletePatient" time="0.016"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testDeletePayment" time="1.046"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testGetSurveyFail" time="0.093"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testGetAppointment" time="0.922"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testDeleteHospitalization" time="0.952"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testCreateHospitalization" time="0.5"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testDeleteSurveyFail" time="0.613"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testCreateDiagnosisFail" time="0.449"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testGetHospital" time="0.047"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testCreatePaymentFail" time="0.735"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testUpdateSurveyFail" time="0.985"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testCreateAppointment" time="0.125"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testUpdatePatientFail" time="0"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testDeleteHospitalizationFail" time="1.531"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testGetSurvey" time="0.156"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testDeleteDiagnosis" time="0.984"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testCreateMedicalInsuranceFail" time="1.048"/>
+  <testcase classname="ru.sfedu.hospital2.lab3.SingleTable.HibernateDataProviderTest" name="testCreateHospitalizationFail" time="1.047"/>
+</testsuite>

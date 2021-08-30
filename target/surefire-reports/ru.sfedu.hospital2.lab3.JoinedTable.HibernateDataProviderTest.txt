@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ru.sfedu.hospital2.lab3.JoinedTable.HibernateDataProviderTest
+-------------------------------------------------------------------------------
+Tests run: 72, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.25 sec

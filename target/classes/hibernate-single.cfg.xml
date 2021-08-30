@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+    <!-- Настройки подключения к БД -->
+    <property name="connection.driver_class">org.h2.Driver</property>
+    <property name="connection.url">jdbc:h2:./src/main/resources/hospital</property>
+    <property name="connection.username">me</property>
+    <property name="connection.password">1</property>
+    <property name="connection.pool_size">10000</property>
+    <!-- SQL диалект, определяется платформой СУБД-->
+    <property name="dialect">org.hibernate.dialect.H2Dialect</property>
+    <!-- Включить автоматическое управление контекстом сессии -->
+    <property name="current_session_context_class">thread</property>
+     <property name="hibernate.current_session_context_class">org.hibnerate.context.ThreadLocalSessionContext</property>
+    <!-- Отключение кеша второго уровня -->
+    <property name="cache.provider_class">org.hibernate.cache.internal.NoCachingRegionFactory</property>
+    <!-- Вывод в консоль SQL-запросов -->
+    <property name="show_sql">true</property>
+    <property name="hibernate.hbm2ddl.auto">create-drop</property>
+    
+    <mapping class="ru.sfedu.hospital2.lab3.SingleTable.model.Appointment"/>
+    <mapping class="ru.sfedu.hospital2.lab3.SingleTable.model.Diagnosis"/>
+    <mapping class="ru.sfedu.hospital2.lab3.SingleTable.model.Documents"/>
+    <mapping class="ru.sfedu.hospital2.lab3.SingleTable.model.Employee"/>
+    <mapping class="ru.sfedu.hospital2.lab3.SingleTable.model.Hospital"/>
+    <mapping class="ru.sfedu.hospital2.lab3.SingleTable.model.Hospitalization"/>
+    <mapping class="ru.sfedu.hospital2.lab3.SingleTable.model.MedicalInsurance"/>
+    <mapping class="ru.sfedu.hospital2.lab3.SingleTable.model.Patient"/>
+    <mapping class="ru.sfedu.hospital2.lab3.SingleTable.model.Payment"/>
+    <mapping class="ru.sfedu.hospital2.lab3.SingleTable.model.Person"/>
+    <mapping class="ru.sfedu.hospital2.lab3.SingleTable.model.Service"/>
+    <mapping class="ru.sfedu.hospital2.lab3.SingleTable.model.Survey"/>
+    </session-factory>
+</hibernate-configuration>
